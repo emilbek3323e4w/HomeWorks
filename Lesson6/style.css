@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Nunito;
+}
+
+body {
+    background-image:url(../image/hm-7.jpeg);
+    background-image: linear-gradient(rgba(61, 61, 61, 0.527),rgba(61, 61, 61, 0.527)) , url(../image/hm-7.jpeg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+    background-size: cover;
+}
+
+.container {
+   padding: 20% 40px;
+}
+
+h3{
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: #fff;
+}
+
+p{
+    padding-bottom: 30px;
+    font-weight: 70;
+    color: #d0d0d0;
+    width: 700px;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #fff;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 27px;
+    padding: 15px 35px;
+    color: #fff;
+    
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    border-radius: 40px;
+    
+}
+
+.testimonials {
+    background-color: #e7e7e7;
+    width: 350px;
+    padding: 15px;
+    margin: 30px;
+}
+
+
+.cont-content {
+    margin-top: 25px;
+} 
+
+
+.cont {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 35px;
+    
+}
+
+.cont img {
+    width: 60px;
+}
+
+.cont h4 {
+    color: black;
+    margin-left: 15px;
+}
+
+.cont p {
+    font-size: 16px;
+    color: rgb(52, 52, 52);
+    margin-left: 15px;
+}
+
+.cont2{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.cont2 p {
+    color: rgb(95, 95, 95);
+    width: 250px;
+}
+
+
+
